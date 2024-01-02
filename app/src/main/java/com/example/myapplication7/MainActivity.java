@@ -19,5 +19,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void Click(View view) {
         tv1.setText("Oh, yea, I’ve been clicked!\n");
+        tv1.setTextSize(20);
     }
 }
